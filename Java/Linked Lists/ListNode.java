@@ -1,5 +1,3 @@
-import java.util.NoSuchElementException;
-
 /**
  * ListNode implementation for a singly linked list
  *
