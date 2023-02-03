@@ -11,8 +11,8 @@ public class ListNode {
 
     /**
      * Construct for a new node with the given data and pointer
-     * @param Object data
-     * @param ListNode next
+     * @param data An item to be added as the data for the node
+     * @param next The pointer of the current node
      */
     public ListNode(Object data, ListNode next) {
         this.data = data;
@@ -21,7 +21,7 @@ public class ListNode {
 
     /**
      * Construct for a new node with no specified data
-     * @param ListNode next
+     * @param next The pointer of the current node
      */
     public ListNode(ListNode next){
         this.data = null;
@@ -30,7 +30,7 @@ public class ListNode {
 
     /**
      * Construct for a new node with no specified next
-     * @param Object data
+     * @param data A data object to start the list
      */
     public ListNode(Object data) {
         this.data = data;
@@ -39,7 +39,7 @@ public class ListNode {
 
     /**
      * Set the next node of the current node
-     * @param ListNode node
+     * @param node
      */
     public void setNext(ListNode node) {
         this.next = node;
@@ -55,7 +55,7 @@ public class ListNode {
 
     /**
      * Set the data of the current node
-     * @param Object data
+     * @param data
      */
     public void setData(Object data) {
         this.data = data;
